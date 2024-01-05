@@ -1,4 +1,6 @@
 # meal-app
+![ss 1](https://github.com/Ram01022002/meal-app/assets/115217915/7dd7d5e7-c1bf-4e54-86ff-6c8a3464a22e)
+![ss 2](https://github.com/Ram01022002/meal-app/assets/115217915/b3969cb2-22ab-42da-8540-f54d74ab56bb)
 # Installation: 
 
 To run the app, clone the repo and in the root folder, run an npm i.
@@ -8,6 +10,7 @@ You will be able to see the react app in localhost 3000.
 
 
 # Functionalities: 
+
 
 This react app has two section, in the left section it has pills and the cards which contain the details of the meals. In the right section it contains the price visibility of the orders. 
 Pills: There are filters at the top of the page where you can select the type of meals required. I have also ensured that when we click on any of the sub filters the selection from all is removed and when clicked on all the selection from other sub filters is removed.
@@ -20,6 +23,7 @@ Price Section: In the right we can see the price section, where when the user cl
 There are two apis
 The pills api fetches all the pills/filters
 The meals api fetches the data of all the meals.
+
 
 
 Once all the meals are fetched then we filter at the client side so as to decrease the number of fetches. This is similar to what google uses where they fetch the emails data in the initial fetch and then they keep filtering on the client side. This might increase the time of load for first time but the corresponding renders doesnot require any network calls.
